@@ -6,8 +6,8 @@ var elementPadding = 40; // padding around the logo and credit text
 // the name of the logo object should match the value of the corresponding radio button in the HTML.
 var logos = {
     'wola': {
-        whitePath: '../img/WOLA_icon_white.png', // path to white logo
-        blackPath: '../img/WOLA_icon_grey.png', // path to black logo
+        whitePath: '../img/WOLA_icon_white.svg', // path to white logo
+        blackPath: '../img/WOLA_icon_grey.svg', // path to black logo
         w: 80, // width of logo
         h: 80, // height of logo
         display: 'WOLA'
