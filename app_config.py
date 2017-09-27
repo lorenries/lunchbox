@@ -15,7 +15,7 @@ NAMES
 """
 # Project name to be used in urls
 # Use dashes, not underscores!
-PROJECT_SLUG = 'lunchbox-test'
+PROJECT_SLUG = 'lunchbox'
 
 # Project name to be used in file paths
 PROJECT_FILENAME = 'lunchbox'
@@ -26,7 +26,7 @@ GITHUB_USERNAME = 'nprapps'
 REPOSITORY_URL = 'git@github.com:%s/%s.git' % (GITHUB_USERNAME, REPOSITORY_NAME)
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
-DEV_CONTACT = 'EDIT THIS IN APP_CONFIG.PY'
+DEV_CONTACT = 'Loren'
 
 """
 DEPLOYMENT
@@ -36,8 +36,8 @@ STAGING_S3_BUCKET = 'stage-apps.npr.org'
 DEFAULT_MAX_AGE = 20
 
 FILE_SERVER_USER = 'ubuntu'
-FILE_SERVER = 'tools.apps.npr.org'
-FILE_SERVER_PATH = '~/www'
+FILE_SERVER = '54.236.118.197'
+FILE_SERVER_PATH = '~/'
 
 # These variables will be set at runtime. See configure_targets() below
 S3_BUCKET = None
